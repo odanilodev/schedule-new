@@ -18,7 +18,7 @@
                         </div>
                         <div>
                             <h2 class="text-white invoice-num">2478</h2>
-                            <span class="text-white fs-18">Total Invoices</span>
+                            <span class="text-white fs-18">Total de Faturas</span>
                         </div>
                     </div>
                 </div>
@@ -35,7 +35,7 @@
                         </div>
                         <div>
                             <h2 class="text-white invoice-num">983</h2>
-                            <span class="text-white fs-18">Paid Invoices</span>
+                            <span class="text-white fs-18">Faturas Pagas</span>
                         </div>
                     </div>
                 </div>
@@ -52,7 +52,7 @@
                         </div>
                         <div>
                             <h2 class="text-white invoice-num">1256</h2>
-                            <span class="text-white fs-18">Unpaid Invoices</span>
+                            <span class="text-white fs-18">Faturas em Abertos</span>
                         </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@
                         </div>
                         <div>
                             <h2 class="text-white invoice-num">652</h2>
-                            <span class="text-white fs-18">Total Invoices Sent</span>
+                            <span class="text-white fs-18">Faturas Enviadas</span>
                         </div>
                     </div>
                 </div>
@@ -84,23 +84,23 @@
                                     <img class="pattern-img" src="{{ URL::to('assets/images/pattern/pattern6.png') }}" alt="">
                                     <div class="card-info text-white">
                                         <img src="{{ URL::to('assets/images/pattern/circle.png') }}" class="mb-4" alt="">
-                                        <h2 class="text-white card-balance">$824,571.93</h2>
-                                        <p class="fs-16">Wallet Balance</p>
-                                        <span>+0,8% than last week</span>
+                                        <h2 class="text-white card-balance">R$824,571.93</h2>
+                                        <p class="fs-16">Saldo da Carteira</p>
+                                        <span>+0,8% que na última semana</span>
                                     </div>
-                                    <a class="change-btn" href="javascript:void(0);"><i class="fa fa-caret-up up-ico"></i>Change<span class="reload-icon"><i class="fas fa-sync-alt reload active"></i></span></a>
+                                    <a class="change-btn" href="javascript:void(0);"><i class="fa fa-caret-up up-ico"></i>Trocar<span class="reload-icon"><i class="fas fa-sync-alt reload active"></i></span></a>
                                 </div>
                             </div>
                             <div class="col-xl-6">
                                 <div class="row  mt-xl-0 mt-4">
                                     <div class="col-md-6">
-                                        <h4 class="card-title">Card's Overview</h4>
+                                        <h4 class="card-title">Visão Geral do Cartão</h4>
                                         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit psu olor</span>
                                         <ul class="card-list mt-4">
-                                            <li><span class="bg-blue circle"></span>Account<span>20%</span></li>
-                                            <li><span class="bg-success circle"></span>Services<span>40%</span></li>
-                                            <li><span class="bg-warning circle"></span>Restaurant<span>15%</span></li>
-                                            <li><span class="bg-light circle"></span>Others<span>15%</span></li>
+                                            <li><span class="bg-blue circle"></span>Conta<span>20%</span></li>
+                                            <li><span class="bg-success circle"></span>Serviços<span>40%</span></li>
+                                            <li><span class="bg-warning circle"></span>Restaurante<span>15%</span></li>
+                                            <li><span class="bg-light circle"></span>Outros<span>15%</span></li>
                                         </ul>
                                     </div>
                                     <div class="col-md-6">
@@ -116,12 +116,12 @@
                 <div class="card">
                     <div class="card-header pb-0 border-0">
                         <div>
-                            <h4 class="card-title mb-2">Activity</h4>
-                            <h2 class="mb-0">$78120</h2>
+                            <h4 class="card-title mb-2">Atividade</h4>
+                            <h2 class="mb-0">R$78120</h2>
                         </div>
                         <ul class="card-list">
-                            <li class="justify-content-end">Income<span class="bg-success circle me-0 ms-2"></span></li>
-                            <li class="justify-content-end">Outcome<span class="bg-danger circle me-0 ms-2"></span></li>
+                            <li class="justify-content-end">Renda<span class="bg-success circle me-0 ms-2"></span></li>
+                            <li class="justify-content-end">Resultado<span class="bg-danger circle me-0 ms-2"></span></li>
                         </ul>
                     </div>
                     <div class="card-body pb-0 pt-3">
@@ -133,7 +133,7 @@
                 <div class="card">
                     <div class="card-header border-0 pb-0">
                         <div>
-                            <h4 class="card-title mb-2">Quick Transfer</h4>
+                            <h4 class="card-title mb-2">Tranferência Rápida</h4>
                             <span class="fs-12">Lorem ipsum dolor sit amet, consectetur</span>
                         </div>
                         <div class="dropdown">
@@ -145,8 +145,8 @@
                                 </svg>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right">
-                                <a class="dropdown-item" href="javascript:void(0);">Delete</a>
-                                <a class="dropdown-item" href="javascript:void(0);">Edit</a>
+                                <a class="dropdown-item" href="javascript:void(0);">Excluir</a>
+                                <a class="dropdown-item" href="javascript:void(0);">Editar</a>
                             </div>
                         </div>
                     </div>
@@ -159,7 +159,7 @@
                             </div>
                             <i class="las la-check-circle check-icon"></i>
                         </div>
-                        <h4 class="mt-3 mb-3">Recent Friend<a href="javascript:void(0);" class="fs-16 float-end text-secondary font-w600">See More</a></h4>
+                        <h4 class="mt-3 mb-3">Amigos Recentes<a href="javascript:void(0);" class="fs-16 float-end text-secondary font-w600">Ver Mais</a></h4>
                         <ul class="user-list">
                             <li><img src="{{ URL::to('assets/images/avatar/1.jpg') }}" alt=""></li>
                             <li><img src="{{ URL::to('assets/images/avatar/2.jpg') }}" alt=""></li>
@@ -168,18 +168,18 @@
                             <li><img src="{{ URL::to('assets/images/avatar/5.jpg') }}" alt=""></li>
                             <li><img src="{{ URL::to('assets/images/avatar/6.jpg') }}" alt=""></li>
                         </ul>
-                        <h4 class="mt-3 mb-0">Insert Amount</h4>
+                        <h4 class="mt-3 mb-0">Inserir valor</h4>
                         <div class="format-slider">
                             <input class="form-control amount-input" title="Formatted number" id="input-format">
                             <div id="slider-format"></div>
                         </div>
                         <div class="text-secondary fs-16 d-flex justify-content-between font-w600 mt-4">
-                            <span>Your Balance</span>
-                            <span>$ 456,345.62</span>
+                            <span>Seu Saldo</span>
+                            <span>R$ 456,345.62</span>
                         </div>
                     </div>
                     <div class="card-footer border-0 pt-0">
-                        <a href="javascript:void(0);" class="btn btn-primary d-block btn-lg text-uppercase">Transfer Now</a>
+                        <a href="javascript:void(0);" class="btn btn-primary d-block btn-lg text-uppercase">Transferênciair Agora</a>
                     </div>
                 </div>
             </div>
@@ -187,7 +187,7 @@
                 <div class="card">
                     <div class="card-header border-0 pb-0">
                         <div>
-                            <h4 class="card-title mb-2">Spendings</h4>
+                            <h4 class="card-title mb-2">Gastos</h4>
                             <span class="fs-12">Lorem ipsum dolor sit amet, consectetur</span>
                         </div>
                         <div class="dropdown">
@@ -199,8 +199,8 @@
                                 </svg>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right">
-                                <a class="dropdown-item" href="javascript:void(0);">Delete</a>
-                                <a class="dropdown-item" href="javascript:void(0);">Edit</a>
+                                <a class="dropdown-item" href="javascript:void(0);">Excluir</a>
+                                <a class="dropdown-item" href="javascript:void(0);">Editar</a>
                             </div>
                         </div>
                     </div>
@@ -211,7 +211,7 @@
                             </div>
                         </div>
                         <div class="d-flex align-items-end mt-2 pb-3 justify-content-between">
-                            <span>Investment</span>
+                            <span>Investimento</span>
                             <span class="fs-18"><span class="text-black pe-2">$1415</span>/$2000</span>
                         </div>
                         <div class="progress default-progress mt-4">
@@ -220,7 +220,7 @@
                             </div>
                         </div>
                         <div class="d-flex align-items-end mt-2 pb-3 justify-content-between">
-                            <span>Restaurant</span>
+                            <span>Restaurante</span>
                             <span class="fs-18"><span class="text-black pe-2">$1567</span>/$5000</span>
                         </div>
                         <div class="progress default-progress mt-4">
@@ -229,8 +229,8 @@
                             </div>
                         </div>
                         <div class="d-flex align-items-end mt-2 pb-3 justify-content-between">
-                            <span>Installment</span>
-                            <span class="fs-18"><span class="text-black pe-2">$487</span>/$10000</span>
+                            <span>Prestação</span>
+                            <span class="fs-18"><span class="text-black pe-2">R$487</span>/$10000</span>
                         </div>
                         <div class="progress default-progress mt-4">
                             <div class="progress-bar bg-gradient-4 progress-animated" style="width: 95%; height:20px;" role="progressbar">
@@ -238,7 +238,7 @@
                             </div>
                         </div>
                         <div class="d-flex align-items-end mt-2 justify-content-between">
-                            <span>Property</span>
+                            <span>Propiedade</span>
                             <span class="fs-18"><span class="text-black pe-2">$3890</span>/$4000</span>
                         </div>
                     </div>
@@ -251,10 +251,10 @@
                 <div class="card">
                     <div class="card-header d-flex flex-wrap border-0 pb-0">
                         <div class="me-auto mb-sm-0 mb-3">
-                            <h4 class="card-title mb-2">Transaction Overview</h4>
+                            <h4 class="card-title mb-2">Transações Anteriores</h4>
                             <span class="fs-12">Lorem ipsum dolor sit amet, consectetur</span>
                         </div>
-                        <a href="javascript:void(0)" class="btn btn-rounded btn-md btn-primary me-3 me-3"><i class="las la-download scale5 me-3"></i>Download Report</a>
+                        <a href="javascript:void(0)" class="btn btn-rounded btn-md btn-primary me-3 me-3"><i class="las la-download scale5 me-3"></i>Baixar Relatório</a>
                         <div class="dropdown">
                             <a href="javascript:void(0);" class="btn-link" data-bs-toggle="dropdown" aria-expanded="false">
                                 <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -264,8 +264,8 @@
                                 </svg>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right">
-                                <a class="dropdown-item" href="javascript:void(0);">Delete</a>
-                                <a class="dropdown-item" href="javascript:void(0);">Edit</a>
+                                <a class="dropdown-item" href="javascript:void(0);">Excluir</a>
+                                <a class="dropdown-item" href="javascript:void(0);">Editar</a>
                             </div>
                         </div>
                     </div>
@@ -273,15 +273,15 @@
                         <div class="d-sm-flex d-block">
                             <div class="form-check toggle-switch text-end form-switch me-4">
                               <input checked="" class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
-                              <label class="form-check-label" for="flexSwitchCheckDefault">Number</label>
+                              <label class="form-check-label" for="flexSwitchCheckDefault">Número</label>
                             </div>
                             <div class="form-check toggle-switch text-end form-switch me-auto">
                               <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault1">
-                              <label class="form-check-label" for="flexSwitchCheckDefault1">Analytics</label>
+                              <label class="form-check-label" for="flexSwitchCheckDefault1">Análise</label>
                             </div>
                             <ul class="card-list d-flex mt-sm-0 mt-3">
-                                <li class="me-3"><span class="bg-success circle"></span>Income</li>
-                                <li><span class="bg-danger circle"></span>Outcome</li>
+                                <li class="me-3"><span class="bg-success circle"></span>Entrada</li>
+                                <li><span class="bg-danger circle"></span>Saída</li>
                             </ul>
                         </div>
                         <div id="chartBar2" class="bar-chart"></div>
@@ -292,19 +292,19 @@
                 <div class="card">
                     <div class="card-header d-block d-sm-flex border-0">
                         <div class="me-3">
-                            <h4 class="card-title mb-2">Previous Transactions</h4>
+                            <h4 class="card-title mb-2">Transações Anteriores</h4>
                             <span class="fs-12">Lorem ipsum dolor sit amet, consectetur</span>
                         </div>
                         <div class="card-tabs mt-3 mt-sm-0">
                             <ul class="nav nav-tabs" role="tablist">
                                 <li class="nav-item">
-                                    <a class="nav-link active" data-bs-toggle="tab" href="#monthly" role="tab">Monthly</a>
+                                    <a class="nav-link active" data-bs-toggle="tab" href="#monthly" role="tab">Por Mês</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" data-bs-toggle="tab" href="#Weekly" role="tab">Weekly</a>
+                                    <a class="nav-link" data-bs-toggle="tab" href="#Weekly" role="tab">Semanalmente</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" data-bs-toggle="tab" href="#Today" role="tab">Today</a>
+                                    <a class="nav-link" data-bs-toggle="tab" href="#Today" role="tab">Hoje</a>
                                 </li>
                             </ul>
                         </div>
@@ -326,11 +326,11 @@
                                                 <span class="fs-14">Cashback</span>
                                             </td>
                                             <td>
-                                                <h6 class="fs-16 text-black font-w600 mb-0">June 4, 2020</h6>
-                                                <span class="fs-14">05:34:45 AM</span>
+                                                <h6 class="fs-16 text-black font-w600 mb-0">4 de Junho de 2020</h6>
+                                                <span class="fs-14">17:34:45</span>
                                             </td>
-                                            <td><span class="fs-16 text-black font-w600">+$5,553</span></td>
-                                            <td><span class="text-success fs-16 font-w500 text-end d-block">Completed</span></td>
+                                            <td><span class="fs-16 text-black font-w600">+R$5,553</span></td>
+                                            <td><span class="text-success fs-16 font-w500 text-end d-block">Concluído</span></td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -340,14 +340,14 @@
                                             </td>
                                             <td>
                                                 <h6 class="fs-16 font-w600 mb-0"><a href="javascript:void(0);" class="text-black">Chef Renata</a></h6>
-                                                <span class="fs-14">Transfer</span>
+                                                <span class="fs-14">Transferência</span>
                                             </td>
                                             <td>
-                                                <h6 class="fs-16 text-black font-w600 mb-0">June 5, 2020</h6>
-                                                <span class="fs-14">05:34:45 AM</span>
+                                                <h6 class="fs-16 text-black font-w600 mb-0">5 de Junho de 2020</h6>
+                                                <span class="fs-14">17:34:45</span>
                                             </td>
                                             <td><span class="fs-16 text-black font-w600">-$167</span></td>
-                                            <td><span class="text-light fs-16 font-w500 text-end d-block">Pending</span></td>
+                                            <td><span class="text-light fs-16 font-w500 text-end d-block">Pendente</span></td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -358,14 +358,14 @@
                                             </td>
                                             <td>
                                                 <h6 class="fs-16 font-w600 mb-0"><a href="javascript:void(0);" class="text-black">Cindy Alexandro</a></h6>
-                                                <span class="fs-14">Transfer</span>
+                                                <span class="fs-14">Transferência</span>
                                             </td>
                                             <td>
-                                                <h6 class="fs-16 text-black font-w600 mb-0">June 5, 2020</h6>
-                                                <span class="fs-14">05:34:45 AM</span>
+                                                <h6 class="fs-16 text-black font-w600 mb-0">5 de Junho de 2020</h6>
+                                                <span class="fs-14">17:34:45</span>
                                             </td>
                                             <td><span class="fs-16 text-black font-w600">+$5,553</span></td>
-                                            <td><span class="text-danger fs-16 font-w500 text-end d-block">Canceled</span></td>
+                                            <td><span class="text-danger fs-16 font-w500 text-end d-block">Cancelado</span></td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -376,14 +376,14 @@
                                             </td>
                                             <td>
                                                 <h6 class="fs-16 font-w600 mb-0"><a href="javascript:void(0);" class="text-black">Paipal</a></h6>
-                                                <span class="fs-14">Transfer</span>
+                                                <span class="fs-14">Transferência</span>
                                             </td>
                                             <td>
-                                                <h6 class="fs-16 text-black font-w600 mb-0">June 4, 2020</h6>
-                                                <span class="fs-14">05:34:45 AM</span>
+                                                <h6 class="fs-16 text-black font-w600 mb-0">4 de Junho de 2020</h6>
+                                                <span class="fs-14">17:34:45</span>
                                             </td>
                                             <td><span class="fs-16 text-black font-w600">+$5,553</span></td>
-                                            <td><span class="text-success fs-16 font-w500 text-end d-block">Completed</span></td>
+                                            <td><span class="text-success fs-16 font-w500 text-end d-block">Concluído</span></td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -396,11 +396,11 @@
                                                 <span class="fs-14">Cashback</span>
                                             </td>
                                             <td>
-                                                <h6 class="fs-16 text-black font-w600 mb-0">June 4, 2020</h6>
-                                                <span class="fs-14">05:34:45 AM</span>
+                                                <h6 class="fs-16 text-black font-w600 mb-0">4 de Junho de 2020</h6>
+                                                <span class="fs-14">17:34:45</span>
                                             </td>
                                             <td><span class="fs-16 text-black font-w600">+$5,553</span></td>
-                                            <td><span class="text-danger fs-16 font-w500 text-end d-block">Canceled</span></td>
+                                            <td><span class="text-danger fs-16 font-w500 text-end d-block">Cancelado</span></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -422,11 +422,11 @@
                                                 <span class="fs-14">Cashback</span>
                                             </td>
                                             <td>
-                                                <h6 class="fs-16 text-black font-w600 mb-0">June 4, 2020</h6>
-                                                <span class="fs-14">05:34:45 AM</span>
+                                                <h6 class="fs-16 text-black font-w600 mb-0">4 de Junho de 2020</h6>
+                                                <span class="fs-14">17:34:45</span>
                                             </td>
                                             <td><span class="fs-16 text-black font-w600">+$5,553</span></td>
-                                            <td><span class="text-success fs-16 font-w500 text-end d-block">Completed</span></td>
+                                            <td><span class="text-success fs-16 font-w500 text-end d-block">Concluído</span></td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -436,14 +436,14 @@
                                             </td>
                                             <td>
                                                 <h6 class="fs-16 font-w600 mb-0"><a href="javascript:void(0);" class="text-black">Chef Renata</a></h6>
-                                                <span class="fs-14">Transfer</span>
+                                                <span class="fs-14">Transferência</span>
                                             </td>
                                             <td>
-                                                <h6 class="fs-16 text-black font-w600 mb-0">June 5, 2020</h6>
-                                                <span class="fs-14">05:34:45 AM</span>
+                                                <h6 class="fs-16 text-black font-w600 mb-0">5 de Junho de 2020</h6>
+                                                <span class="fs-14">17:34:45</span>
                                             </td>
                                             <td><span class="fs-16 text-black font-w600">-$167</span></td>
-                                            <td><span class="text-light fs-16 font-w500 text-end d-block">Pending</span></td>
+                                            <td><span class="text-light fs-16 font-w500 text-end d-block">Pendente</span></td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -454,14 +454,14 @@
                                             </td>
                                             <td>
                                                 <h6 class="fs-16 font-w600 mb-0"><a href="javascript:void(0);" class="text-black">Cindy Alexandro</a></h6>
-                                                <span class="fs-14">Transfer</span>
+                                                <span class="fs-14">Transferência</span>
                                             </td>
                                             <td>
-                                                <h6 class="fs-16 text-black font-w600 mb-0">June 5, 2020</h6>
-                                                <span class="fs-14">05:34:45 AM</span>
+                                                <h6 class="fs-16 text-black font-w600 mb-0">5 de Junho de 2020</h6>
+                                                <span class="fs-14">17:34:45</span>
                                             </td>
                                             <td><span class="fs-16 text-black font-w600">+$5,553</span></td>
-                                            <td><span class="text-danger fs-16 font-w500 text-end d-block">Canceled</span></td>
+                                            <td><span class="text-danger fs-16 font-w500 text-end d-block">Cancelado</span></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -479,14 +479,14 @@
                                             </td>
                                             <td>
                                                 <h6 class="fs-16 font-w600 mb-0"><a href="javascript:void(0);" class="text-black">Chef Renata</a></h6>
-                                                <span class="fs-14">Transfer</span>
+                                                <span class="fs-14">Transferência</span>
                                             </td>
                                             <td>
-                                                <h6 class="fs-16 text-black font-w600 mb-0">June 5, 2020</h6>
-                                                <span class="fs-14">05:34:45 AM</span>
+                                                <h6 class="fs-16 text-black font-w600 mb-0">5 de Junho de 2020</h6>
+                                                <span class="fs-14">17:34:45</span>
                                             </td>
                                             <td><span class="fs-16 text-black font-w600">-$167</span></td>
-                                            <td><span class="text-light fs-16 font-w500 text-end d-block">Pending</span></td>
+                                            <td><span class="text-light fs-16 font-w500 text-end d-block">Pendente</span></td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -497,14 +497,14 @@
                                             </td>
                                             <td>
                                                 <h6 class="fs-16 font-w600 mb-0"><a href="javascript:void(0);" class="text-black">Cindy Alexandro</a></h6>
-                                                <span class="fs-14">Transfer</span>
+                                                <span class="fs-14">Transferência</span>
                                             </td>
                                             <td>
-                                                <h6 class="fs-16 text-black font-w600 mb-0">June 5, 2020</h6>
-                                                <span class="fs-14">05:34:45 AM</span>
+                                                <h6 class="fs-16 text-black font-w600 mb-0">5 de Junho de 2020</h6>
+                                                <span class="fs-14">17:34:45</span>
                                             </td>
                                             <td><span class="fs-16 text-black font-w600">+$5,553</span></td>
-                                            <td><span class="text-danger fs-16 font-w500 text-end d-block">Canceled</span></td>
+                                            <td><span class="text-danger fs-16 font-w500 text-end d-block">Cancelado</span></td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -515,14 +515,14 @@
                                             </td>
                                             <td>
                                                 <h6 class="fs-16 font-w600 mb-0"><a href="javascript:void(0);" class="text-black">Paipal</a></h6>
-                                                <span class="fs-14">Transfer</span>
+                                                <span class="fs-14">Transferência</span>
                                             </td>
                                             <td>
-                                                <h6 class="fs-16 text-black font-w600 mb-0">June 4, 2020</h6>
-                                                <span class="fs-14">05:34:45 AM</span>
+                                                <h6 class="fs-16 text-black font-w600 mb-0">4 de Junho de 2020</h6>
+                                                <span class="fs-14">17:34:45</span>
                                             </td>
                                             <td><span class="fs-16 text-black font-w600">+$5,553</span></td>
-                                            <td><span class="text-success fs-16 font-w500 text-end d-block">Completed</span></td>
+                                            <td><span class="text-success fs-16 font-w500 text-end d-block">Concluído</span></td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -535,11 +535,11 @@
                                                 <span class="fs-14">Cashback</span>
                                             </td>
                                             <td>
-                                                <h6 class="fs-16 text-black font-w600 mb-0">June 4, 2020</h6>
-                                                <span class="fs-14">05:34:45 AM</span>
+                                                <h6 class="fs-16 text-black font-w600 mb-0">4 de Junho de 2020</h6>
+                                                <span class="fs-14">17:34:45</span>
                                             </td>
                                             <td><span class="fs-16 text-black font-w600">+$5,553</span></td>
-                                            <td><span class="text-danger fs-16 font-w500 text-end d-block">Canceled</span></td>
+                                            <td><span class="text-danger fs-16 font-w500 text-end d-block">Cancelado</span></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -559,9 +559,9 @@
                                     </svg>
                                 </span>
                                 <div>
-                                    <h3 class="text-white">Get managed by Dompet’s Virtual Assistant</h3>
+                                    <h3 class="text-white">Seja gerenciado pelo assistente virtual da Dompet</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </p>
-                                    <a class="text-white" href="javascript:void(0);">Learn more >></a>
+                                    <a class="text-white" href="javascript:void(0);">Ler Mais >></a>
                                 </div>
                             </div>
                         </div>
@@ -570,7 +570,7 @@
                         <div class="card progress-card">
                             <div class="card-body d-flex">
                                 <div class="me-auto">
-                                    <h4 class="card-title">Total Transactions</h4>
+                                    <h4 class="card-title">Total de Transações</h4>
                                     <div class="d-flex align-items-center">
                                         <h2 class="fs-38 mb-0">98k</h2>
                                         <div class="text-success transaction-caret">
@@ -605,7 +605,7 @@
                     <div class="col-md-6">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title">Invoice Remaining</h4>
+                                <h4 class="card-title">Fatura Restante</h4>
                                 <div class="d-flex align-items-center">
                                     <div class="me-auto">
                                         <div class="progress mt-4" style="height:10px;">
@@ -613,7 +613,7 @@
                                                 <span class="sr-only">60% Complete</span>
                                             </div>
                                         </div>
-                                        <p class="fs-16 mb-0 mt-2"><span class="text-danger">-0,8% </span>from last month</p>
+                                        <p class="fs-16 mb-0 mt-2"><span class="text-danger">-0,8% </span>do último mês</p>
                                     </div>
                                     <h2 class="fs-38">854</h2>
                                 </div>
@@ -623,7 +623,7 @@
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title mt-2">Invoice Sent</h4>
+                                <h4 class="card-title mt-2">Fatura Enviada</h4>
                                 <div class="d-flex align-items-center mt-3 mb-2">
                                     <h2 class="fs-38 mb-0 me-3">456</h2>
                                     <span class="badge badge-success badge-xl">+0.5%</span>
@@ -634,7 +634,7 @@
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title mt-2">Invoice Compeleted</h4>
+                                <h4 class="card-title mt-2">Fatura Concluída</h4>
                                 <div class="d-flex align-items-center mt-3 mb-2">
                                     <h2 class="fs-38 mb-0 me-3">1467</h2>
                                     <span class="badge badge-danger badge-xl">-6.4%</span>

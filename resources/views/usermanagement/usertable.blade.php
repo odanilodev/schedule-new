@@ -8,29 +8,29 @@
     <div class="container-fluid">
         <div class="row page-titles">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item active"><a href="{{ route('home') }}">Table</a></li>
-                <li class="breadcrumb-item"><a href="{{ route('home') }}">All User</a></li>
+                <li class="breadcrumb-item active"><a href="{{ route('home') }}">Tabela</a></li>
+                <li class="breadcrumb-item"><a href="{{ route('home') }}">Todos Usuários</a></li>
             </ol>
         </div>
         <div class="row">
             <div class="col-12">
                 <div class="card">
                     <div class="card-header">
-                        <h4 class="card-title">List User</h4>
+                        <h4 class="card-title">Listar Usuário</h4>
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">
                             <table id="example2" class="display" style="width:100%">
                                 <thead>
                                     <tr>
-                                        <th>Profile</th>
-                                        <th>Name</th>
-                                        <th>User ID</th>
-                                        <th>Role Name</th>
+                                        <th>Perfil</th>
+                                        <th>Nome</th>
+                                        <th>ID do Usuário</th>
+                                        <th>Nome Completo</th>
                                         <th>Email</th>
                                         <th>Status</th>
-                                        <th>Joining Date</th>
-                                        <th>Action</th>
+                                        <th>Data de Contrato</th>
+                                        <th>Ação</th>
                                         <th></th>
                                     </tr>
                                 </thead>
@@ -75,14 +75,14 @@
                                 </tbody>
                                 <tfoot>
                                     <tr>
-                                        <th>Profile</th>
-                                        <th>Name</th>
-                                        <th>User ID</th>
-                                        <th>Role Name</th>
+                                        <th>Perfil</th>
+                                        <th>Nome</th>
+                                        <th>ID do Usuário</th>
+                                        <th>Nome Completo</th>
                                         <th>Email</th>
                                         <th>Status</th>
-                                        <th>Joining Date</th>
-                                        <th>Action</th>
+                                        <th>Data de Contrato</th>
+                                        <th>Ação</th>
                                         <th></th>
                                     </tr>
                                 </tfoot>
@@ -100,7 +100,7 @@
     <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">Edit User</h5>
+                <h5 class="modal-title">Editar Usuário</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -110,13 +110,13 @@
                     @csrf
                     <div class="row">
                         <div class="mb-3 col-md-12">
-                            <label class="form-label">User ID</label>
+                            <label class="form-label">ID do Usuário</label>
                             <input type="text" class="form-control" id="e_user_id" name="user_id" readonly>
                         </div>
                     </div>
                     <div class="row">
                         <div class="mb-3 col-md-6">
-                            <label class="form-label">Name</label>
+                            <label class="form-label">Nome</label>
                             <input type="text" class="form-control" id="e_name" name="name">
                         </div>
                         <div class="mb-3 col-md-6">
@@ -126,7 +126,7 @@
                     </div>
                     <div class="row">
                         <div class="mb-3 col-md-6">
-                            <label class="form-label">Mobile</label>
+                            <label class="form-label">Móvel</label>
                             <input type="tel" class="form-control" id="e_phone_number" name="phone_number">
                         </div>
                         <div class="mb-3 col-md-6">
@@ -136,16 +136,16 @@
                     </div>
                     <div class="row">
                         <div class="mb-3 col-md-6">
-                            <label class="form-label">Role Name</label>
+                            <label class="form-label">Nome Completo</label>
                             <input type="text" class="form-control" id="e_role_name" name="role_name" readonly>
                         </div>
                         <div class="mb-3 col-md-6">
-                            <label class="form-label">Join Date</label>
+                            <label class="form-label">Data de Contrato</label>
                             <input type="text" class="form-control" id="e_join_date" name="join_date" readonly>
                         </div>
                     </div>
                     <div class="submit-section">
-                        <button type="submit" class="btn btn-primary-save submit-btn">Save</button>
+                        <button type="submit" class="btn btn-primary-save submit-btn">Salvar</button>
                     </div>
                 </form>
             </div>
@@ -160,8 +160,8 @@
         <div class="modal-content">
             <div class="modal-body">
                 <div class="form-header">
-                    <h3>Delete User</h3>
-                    <p>Are you sure want to delete?</p>
+                    <h3>Deletar Usuário</h3>
+                    <p>Você tem certeza que quer deletar?</p>
                 </div>
                 <div class="modal-btn delete-action">
                     <form action="{{ route('user/delete') }}" method="POST">
@@ -169,10 +169,10 @@
                         <input type="hidden" id="e_id" name="id">
                         <div class="row">
                             <div class="col-6">
-                                <button type="submit" class="btn btn-primary-cus continue-btn submit-btn">Delete</button>
+                                <button type="submit" class="btn btn-primary-cus continue-btn submit-btn">Deletar</button>
                             </div>
                             <div class="col-6">
-                                <a href="javascript:void(0);" data-dismiss="modal" class="btn btn-primary-cus cancel-btn">Cancel</a>
+                                <a href="javascript:void(0);" data-dismiss="modal" class="btn btn-primary-cus cancel-btn">Cancelar</a>
                             </div>
                         </div>
                     </form>
