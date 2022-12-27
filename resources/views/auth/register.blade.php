@@ -31,7 +31,7 @@
                                 <div class="mb-3">
                                     <label class="mb-1"><strong>Role Name</strong></label>
                                     <select class="form-control default-select wide @error('role_name') is-invalid @enderror" name="role_name" id="role_name">
-                                        <option selected disabled>-- Select Role Name --</option>
+                                        <option selected disabled>-- Select Name --</option>
                                         @foreach ($role as $name)
                                             <option value="{{ $name->role_type }}">{{ $name->role_type }}</option>
                                         @endforeach
