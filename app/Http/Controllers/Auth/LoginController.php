@@ -66,30 +66,10 @@ class LoginController extends Controller
                 'password' => 'required|string',
             ]);
 
-            $email     = '@gmail.com';
-            $username  = $request->username . $email;
+            $username  = $request->username;
             $password  = $request->password;
 
-            if(App::environment('login_api'))
-            {
-                //   Get Token from API
-                //   $http = new \GuzzleHttp\Client;
-                $response = Http::post('http://localhost/example_api/public/api/login?', [
-                    'headers' => [
-                        'Authorization' => 'Bearer' .session()->get('token.access_token'),
-                    ],
-                    'query'=> [
-                        'email'    => 'admin@gmail.com',
-                        'password' => $password,
-                    ]
-                ]);
-
-                $result = json_decode((string) $response->getBody(),true);
-                Toastr::success('Login successfully :)','Success');
-                return redirect()->intended('home');
-
-            } elseif (App::environment('login_normal')) {
-                if (Auth::attempt(['email'=>$username,'password'=>$password])) {
+            if (Auth::attempt(['email'=>$username,'password'=>$password])) {
                 /** get session */
                 $user = Auth::User();
                 Session::put('name', $user->name);
@@ -108,6 +88,26 @@ class LoginController extends Controller
                     Toastr::error('fail, WRONG USERNAME OR PASSWORD :)','Error');
                     return redirect('login');
                 }
+
+            if(App::environment('login_api'))
+            {
+                //   Get Token from API
+
+                $http = new \GuzzleHttp\Client;
+                $response = Http::post('http://localhost/example_api/public/api/login?', [
+                    'headers' => [
+                        'Authorization' => 'Bearer' .session()->get('token.access_token'),
+                    ],
+                    'query'=> [
+                        'email'    => 'admin@gmail.com',
+                        'password' => $password,
+                    ]
+                ]);
+
+                $result = json_decode((string) $response->getBody(),true);
+                Toastr::success('Login successfully :)','Success');
+                return redirect()->intended('home');
+
             }
            
         } catch(\Exception $e) {
