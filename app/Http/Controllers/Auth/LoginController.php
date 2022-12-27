@@ -82,10 +82,10 @@ class LoginController extends Controller
                 Session::put('avatar', $user->avatar);
                 Session::put('position', $user->position);
                 Session::put('department', $user->department);
-                Toastr::success('Login successfully :)','Success');
+                Toastr::success('Login realizado com sucesso :)','Sucesso');
                 return redirect()->intended('home');
                 } else {
-                    Toastr::error('fail, WRONG USERNAME OR PASSWORD :)','Error');
+                    Toastr::error('Erro, login ou senha incorreta','ERRO');
                     return redirect('login');
                 }
 
@@ -105,14 +105,14 @@ class LoginController extends Controller
                 ]);
 
                 $result = json_decode((string) $response->getBody(),true);
-                Toastr::success('Login successfully :)','Success');
+                Toastr::success('Login realizado com sucesso ','Successo');
                 return redirect()->intended('home');
 
             }
            
         } catch(\Exception $e) {
             DB::rollback();
-            Toastr::error('fail, LOGIN :)','Error');
+            Toastr::error('Erro, verifique se foram preenchidos os campos LOGIN e SENHA','Erro');
             return redirect()->back();
         }
     }
@@ -134,7 +134,7 @@ class LoginController extends Controller
         $request->session()->forget('department');
         $request->session()->flush();
 
-        Toastr::success('Logout successfully :)','Success');
+        Toastr::success('Sessão encerrada com sucesso :)','Success');
         return redirect('login');
     }
 
