@@ -27,21 +27,21 @@
             </li>
 
             <li>
-                <a href="" aria-expanded="false">
+                <a href="javascript:void()" aria-expanded="false">
                     <i class="flaticon-025-dashboard"></i>
                     <span class="nav-text">Painel</span>
                 </a>
             </li>
 
             <li>
-                <a href="" aria-expanded="false">
+                <a href="javascript:void()" aria-expanded="false">
                     <i class="bi bi-calendar3"></i>
                     <span class="nav-text">Agenda</span>
                 </a>
             </li>
 
             <li>
-                <a href="" aria-expanded="false">
+                <a href="javascript:void()" aria-expanded="false">
                     <i class="bi bi-people-fill"></i>
                     <span class="nav-text">Clientes</span>
                 </a>
@@ -49,7 +49,7 @@
             </li>
 
             <li>
-                <a href="" aria-expanded="false">
+                <a href="javascript:void()" aria-expanded="false">
                     <i class="bi bi-tools"></i>
                     <span class="nav-text">Serviços</span>
                 </a>
@@ -57,30 +57,30 @@
             </li>
 
             <li>
-                <a class="has-arrow ai-icon" href="" aria-expanded="false">
+                <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
                     <i class="bi bi-basket-fill"></i>
                     <span class="nav-text">Produtos</span>
                 </a>
                 <ul aria-expanded="false">
                     <li>
-                        <a href=""><i class="bi bi-list-ul"></i> Listagem </a>
+                        <a href="{{ route('form/input/new') }}"><i class="bi bi-list-ul"></i> Listagem </a>
                     </li>
 
                     <li>
-                        <a href=""><i class="bi bi-tag-fill"></i> Categorias </a>
+                        <a href="{{ route('form/input/new') }}"><i class="bi bi-tag-fill"></i> Categorias </a>
                     </li>
                 </ul>
             </li>
 
             <li>
-                <a href="" aria-expanded="false">
+                <a href="javascript:void()" aria-expanded="false">
                     <i class="bi bi-person-lines-fill"></i>
                     <span class="nav-text">Profissionais</span>
                 </a>
             </li>
 
             <li>
-                <a href="" aria-expanded="false">
+                <a href="javascript:void()" aria-expanded="false">
                     <i class="bi bi-shop"></i>
                     <span class="nav-text">Minhas Unidades</span>
                 </a>
