@@ -42,7 +42,7 @@
 
             <li>
                 <a href="javascript:void()" aria-expanded="false">
-                    <i class="bi bi-people-fill"></i>
+                    <i class="fa fa-users" aria-hidden="true"></i>
                     <span class="nav-text">Clientes</span>
                 </a>
                 
@@ -63,11 +63,11 @@
                 </a>
                 <ul aria-expanded="false">
                     <li>
-                        <a href="{{ route('form/input/new') }}"><i class="bi bi-list-ul"></i> Listagem </a>
+                        <a href="javascript:void()"><i class="bi bi-list-ul"></i> Listagem </a>
                     </li>
 
                     <li>
-                        <a href="{{ route('form/input/new') }}"><i class="bi bi-tag-fill"></i> Categorias </a>
+                        <a href="javascript:void()"><i class="bi bi-tag-fill"></i> Categorias </a>
                     </li>
                 </ul>
             </li>
@@ -80,6 +80,26 @@
             </li>
 
             <li>
+                <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                    <i class="fa fa-address-card" aria-hidden="true"></i>
+                    <span class="nav-text">CRM</span>
+                </a>
+                <ul aria-expanded="false">
+                    <li>
+                        <a href="javascript:void()"><i class="bi bi-exclamation-diamond-fill"></i> Avisos </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void()"><i class="fa fa-birthday-cake" aria-hidden="true"></i> Aniversários </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void()"><i class="bi bi-graph-up"></i> Frequência </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
                 <a href="javascript:void()" aria-expanded="false">
                     <i class="bi bi-shop"></i>
                     <span class="nav-text">Minhas Unidades</span>
@@ -87,7 +107,6 @@
             </li>
 
           
-
         </ul>
     </div>
 </div>
