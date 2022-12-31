@@ -26,7 +26,7 @@
                             </div>
                             <div class="row d-flex justify-content-between mt-4 mb-2">
                                 <div class="mb-3">
-                                    Vish, esqueceu a senha? <a href="#">Clique aqui</a>
+                                    Vish, esqueceu a senha? <a href="#">Clique aqui.</a>
                                 </div>
                             </div>
                             <div class="text-center">
