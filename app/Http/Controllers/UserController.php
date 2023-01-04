@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 
 use App\Models\User;
 
+use App\Http\Requests\LoginUser;
+
 class UserController extends Controller
 {
     /**
@@ -34,20 +36,20 @@ class UserController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(LoginUser $request)
     {
 
         $user = new User;
 
-        $user->name = $request->name;
-        $user->birthday = $request->birthday;
-        $user->password = $request->password;
-        $user->token = $request->token;
+        $user->create($request->all());
 
-        $user->save();
-
+        //$user->name = $request->name;
+        //$user->birthday = $request->birthday;
+        //$user->password = $request->password;
+        //$user->token = $request->token;
+        //$user->save();
+        
         return redirect('/');
-
     }
 
     /**

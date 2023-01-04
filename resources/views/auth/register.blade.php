@@ -20,7 +20,7 @@
 
                                 <div class="mb-3">
                                     <label class="mb-1"><strong>Quando você nasceu?</strong></label>
-                                    <input type="date" class="form-control @error('name') is-invalid @enderror" name="birthday">
+                                    <input type="date" class="form-control @error('birthday') is-invalid @enderror" name="birthday">
                                 </div>
                             
                               
@@ -40,7 +40,7 @@
 
                                 <div class="mb-3">
                                     <label class="mb-1"><strong>Digite o seu TOKEN de acesso</strong></label>
-                                    <input type="password" class="form-control @error('password_confirmation') is-invalid @enderror" name="token" placeholder="Digite o token que foi enviado ao seu email">
+                                    <input type="text" class="form-control @error('token') is-invalid @enderror" name="token" placeholder="Digite o token que foi enviado ao seu email">
                                 </div>
                                 <div class="text-center mt-4">
                                     <button type="submit" class="btn btn-primary btn-block">Criar Acesso</button>
