@@ -20,28 +20,10 @@
 
                                 <div class="mb-3">
                                     <label class="mb-1"><strong>Quando você nasceu?</strong></label>
-                                    <input type="date" class="form-control @error('name') is-invalid @enderror" name="name">
+                                    <input type="date" class="form-control @error('name') is-invalid @enderror" name="birthday">
                                 </div>
-                              <!--  <div class="mb-3">
-                                    <label class="mb-1"><strong>Email</strong></label>
-                                    <input type="email" class="form-control @error('email') is-invalid @enderror" name="email" placeholder="Enter email">
-                                    @error('email')
-                                        <span class="invalid-feedback" role="alert">
-                                            <strong>{{ $message }}</strong>
-                                        </span>
-                                    @enderror
-                                </div> -->
-
-                               <!--   <input type="hidden" class="image" name="image" value="photo_defaults.jpg">
-                                <div class="mb-3">
-                                    <label class="mb-1"><strong>Role Name</strong></label>
-                                    <select class="form-control default-select wide @error('role_name') is-invalid @enderror" name="role_name" id="role_name">
-                                        <option selected disabled>-- Select Name --</option>
-                                        @foreach ($role as $name)
-                                            <option value="{{ $name->role_type }}">{{ $name->role_type }}</option>
-                                        @endforeach
-                                    </select>
-                                </div> -->
+                            
+                              
                                 <div class="mb-3">
                                     <label class="mb-1"><strong>Crie uma senha para entrar no seu painel</strong></label>
                                     <input type="password" class="form-control @error('password') is-invalid @enderror" name="password" placeholder="Digite a senha">
@@ -58,7 +40,7 @@
 
                                 <div class="mb-3">
                                     <label class="mb-1"><strong>Digite o seu TOKEN de acesso</strong></label>
-                                    <input type="password" class="form-control @error('password_confirmation') is-invalid @enderror" name="password_confirmation" placeholder="Digite o token que foi enviado ao seu email">
+                                    <input type="password" class="form-control @error('password_confirmation') is-invalid @enderror" name="token" placeholder="Digite o token que foi enviado ao seu email">
                                 </div>
                                 <div class="text-center mt-4">
                                     <button type="submit" class="btn btn-primary btn-block">Criar Acesso</button>

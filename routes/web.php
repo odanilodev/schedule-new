@@ -8,6 +8,8 @@ use App\Http\Controllers\ResetPasswordController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\UserManagementController;
 use App\Http\Controllers\TypeFormController;
+use App\Http\Controllers\UserController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -45,9 +47,9 @@ Route::controller(LoginController::class)->group(function () {
 });
 
 // ------------------------------ register ---------------------------------//
-Route::controller(RegisterController::class)->group(function () {
-    Route::get('/register', 'register')->name('register');
-    Route::post('/register','storeUser')->name('register');    
+Route::controller(UserController::class)->group(function () {
+    Route::get('/register', 'index')->name('register');
+    Route::post('/register','store')->name('register');    
 });
 
 // -------------------------- main dashboard ----------------------//
