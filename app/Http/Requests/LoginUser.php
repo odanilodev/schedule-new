@@ -25,7 +25,7 @@ class LoginUser extends FormRequest
     {
         return [
             'name' => ['required','string'],
-            'birthday' => ['required'],
+            'birthday' => ['required', 'date'],
             'token' => ['required','string'],
             'password' => ['required'],
             
