@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\Auth\ForgotPasswordController;
+use App\Http\Controllers\ClientController;
 use App\Http\Controllers\ResetPasswordController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\UserManagementController;
@@ -62,6 +63,11 @@ Route::controller(UserManagementController::class)->group(function () {
     Route::post('user/delete', 'deleteRecord')->name('user/delete');
     Route::get('user/profile', 'profileUser')->middleware('auth')->name('user/profile');
 
+});
+
+// -------------------------- client list ----------------------//
+Route::controller(ClientController::class)->group(function(){
+    Route::get('/clients', 'index')->name('clients');
 });
 
 // -------------------------- type form ----------------------//

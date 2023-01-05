@@ -27,7 +27,7 @@
             </li>
 
             <li>
-                <a href="javascript:void()" aria-expanded="false">
+                <a href="{{ route('home') }}" aria-expanded="false">
                     <i class="flaticon-025-dashboard"></i>
                     <span class="nav-text">Painel</span>
                 </a>
@@ -41,7 +41,7 @@
             </li>
 
             <li>
-                <a href="javascript:void()" aria-expanded="false">
+                <a href="{{ route('clients') }}" aria-expanded="false">
                     <i class="bi bi-people-fill"></i>
                     <span class="nav-text">Clientes</span>
                 </a>
@@ -67,7 +67,7 @@
                     </li>
 
                     <li>
-                        <a href="{{ route('form/input/new') }}"><i class="bi bi-tag-fill"></i> Categorias </a>
+                        <a href="javascript:void()"><i class="bi bi-tag-fill"></i> Categorias </a>
                     </li>
                 </ul>
             </li>
