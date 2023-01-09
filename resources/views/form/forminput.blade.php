@@ -8,7 +8,7 @@
     <div class="container-fluid">
         <div class="row page-titles">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item active"><a href="{{ route('home') }}">Formulário</a></li>
+                <li class="breadcrumb-item active"><a href="{{ route('home') }}">Formulário </a></li>
                 <li class="breadcrumb-item"><a href="{{ route('home') }}">Cadastro de Funcionário</a></li>
             </ol>
         </div>
