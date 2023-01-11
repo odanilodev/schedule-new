@@ -13,7 +13,7 @@
 	<meta property="og:image" content="https://dompet.dexignlab.com/xhtml/social-image.png">
 	<meta name="format-detection" content="telephone=no">
 	<!-- PAGE TITLE HERE -->
-	<title> Home Page</title>
+	<title>Página Inicial</title>
 	<!-- FAVICONS ICON -->
 	<link rel="shortcut icon" type="image/png" href="{{URL::to('assets/images/favicon.png')}}">
 	<link href="{{URL::to('assets/vendor/jquery-nice-select/css/nice-select.css')}}" rel="stylesheet">
@@ -36,16 +36,16 @@
     <!-- Preloader start -->
     <div id="preloader">
         <div class="waviy">
-		   <span style="--i:1">L</span>
-		   <span style="--i:2">o</span>
-		   <span style="--i:3">a</span>
-		   <span style="--i:4">d</span>
-		   <span style="--i:5">i</span>
-		   <span style="--i:6">n</span>
-		   <span style="--i:7">g</span>
-		   <span style="--i:8">.</span>
-		   <span style="--i:9">.</span>
-		   <span style="--i:10">.</span>
+		   <span style="--i:1">C</span>
+		   <span style="--i:2">a</span>
+		   <span style="--i:3">r</span>
+		   <span style="--i:4">r</span>
+		   <span style="--i:5">e</span>
+		   <span style="--i:6">g</span>
+		   <span style="--i:7">a</span>
+		   <span style="--i:8">n</span>
+		   <span style="--i:9">d</span>
+		   <span style="--i:10">o</span>
 		</div>
     </div>
     <!-- Preloader end -->
@@ -432,13 +432,13 @@
                     <div class="collapse navbar-collapse justify-content-between">
                         <div class="header-left">
 							<div class="dashboard_bar">
-                                Dashboard 
+                                Painel
                             </div>
                         </div>
                         <ul class="navbar-nav header-right">
 							<li class="nav-item">
 								<div class="input-group search-area">
-									<input type="text" class="form-control" placeholder="Search here...">
+									<input type="text" class="form-control" placeholder="Busque aqui...">
 									<span class="input-group-text"><a href="javascript:void(0)"><i class="flaticon-381-search-2"></i></a></span>
 								</div>
 							</li>
@@ -555,7 +555,7 @@
         <!-- Footer start -->
         <div class="footer">
             <div class="copyright">
-                <p>Copyright © Designed &amp; Developed by <a href="https://souysoeng.com/" target="_blank">Admin Template</a> 2022</p>
+                <p> © 2022  Desenvolvido por: <a href="https://centrodainteligencia.com.br" target="_blank">Centro da Inteligência</a> </p>
             </div>
         </div>
         <!-- Footer end -->
