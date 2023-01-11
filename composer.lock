@@ -1249,6 +1249,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
+<<<<<<< HEAD
             "time": "2023-01-10T16:10:09+00:00"
         },
         {
@@ -1263,6 +1264,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/sanctum/zipball/bf5cb6c256d19a108bdfaca121b2594da063fbd5",
                 "reference": "bf5cb6c256d19a108bdfaca121b2594da063fbd5",
+=======
+            "time": "2023-01-03T15:12:31+00:00"
+        },
+        {
+            "name": "laravel/sanctum",
+            "version": "v3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/sanctum.git",
+                "reference": "d823587299d50c3ae9c26fa1731ef0d5b725c788"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/sanctum/zipball/d823587299d50c3ae9c26fa1731ef0d5b725c788",
+                "reference": "d823587299d50c3ae9c26fa1731ef0d5b725c788",
+>>>>>>> main
                 "shasum": ""
             },
             "require": {
@@ -1314,7 +1331,11 @@
                 "issues": "https://github.com/laravel/sanctum/issues",
                 "source": "https://github.com/laravel/sanctum"
             },
+<<<<<<< HEAD
             "time": "2023-01-06T15:43:53+00:00"
+=======
+            "time": "2023-01-03T09:38:46+00:00"
+>>>>>>> main
         },
         {
             "name": "laravel/serializable-closure",
@@ -5867,6 +5888,7 @@
         },
         {
             "name": "laravel/sail",
+<<<<<<< HEAD
             "version": "v1.18.0",
             "source": {
                 "type": "git",
@@ -5877,6 +5899,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/sail/zipball/77feb38df1cf8700c19487957dfb12087cd696c7",
                 "reference": "77feb38df1cf8700c19487957dfb12087cd696c7",
+=======
+            "version": "v1.17.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/sail.git",
+                "reference": "7d69da7b2bdb8cbe8da6663eb2ae0e00c884bf80"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/7d69da7b2bdb8cbe8da6663eb2ae0e00c884bf80",
+                "reference": "7d69da7b2bdb8cbe8da6663eb2ae0e00c884bf80",
+>>>>>>> main
                 "shasum": ""
             },
             "require": {
@@ -5923,7 +5957,11 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
+<<<<<<< HEAD
             "time": "2023-01-10T16:14:21+00:00"
+=======
+            "time": "2022-12-22T14:46:08+00:00"
+>>>>>>> main
         },
         {
             "name": "mockery/mockery",
